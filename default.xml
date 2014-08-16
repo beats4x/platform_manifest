@@ -7,12 +7,15 @@
   <remote  name="github"
            fetch="git://github.com/"
            review="https://gerrit.slimroms.net/"/>
+           
+  <remote name="dx"
+           fetch="git://github.com/DeviantXone/" />        
 
   <default revision="refs/tags/android-4.4.4_r2"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="SlimRoms/android_build" remote="github" revision="kk4.4" >
+  <project path="build" name="android_build" remote="dx" revision="dx4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -39,6 +42,7 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
+  <project path="device/lge/d801" name="device_lge_d801" remote="dx" revision="dx4.4" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="SlimRoms/android_external_aac" remote="github" revision="kk4.4" />
@@ -242,7 +246,7 @@
   <project path="external/zlib" name="SlimRoms/android_external_zlib" remote="github" revision="kk4.4" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="kk4.4-caf" />
-  <project path="frameworks/base" name="SlimRoms/frameworks_base" remote="github" revision="kk4.4-caf" />
+  <project path="frameworks/base" name="frameworks_base" remote="dx" revision="dx4.4" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="SlimRoms/frameworks_compile_mclinker" remote="github" revision="kk4.4" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -333,7 +337,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="SlimRoms/packages_apps_Provision" remote="github" revision="kk4.4" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="SlimRoms/packages_apps_Settings" remote="github" revision="kk4.4" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="dx" revision="dx4.4" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="SlimRoms/packages_apps_SoundRecorder" remote="github" revision="kk4.4" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -437,19 +441,10 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <project path="platform_manifest" name="SlimRoms/platform_manifest" remote="github" revision="kk4.4-caf" />
+  <project path="platform_manifest" name="platform_manifest" remote="dx" revision="dx4.4" />
 
-  <!-- New Additions for slim -->
-  <project path="vendor/slim" name="SlimRoms/vendor_slim" remote="github" revision="kk4.4" />
-
-  <!-- Slim OTA -->
-  <project path="packages/apps/SlimCenter" name="SlimRoms/packages_apps_SlimCenter" remote="github" revision="kk4.4" />
-
-  <!-- Slim file manager -->
-  <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="kk4.4" />
-
-  <!-- DSPManager -->
-  <project path="packages/apps/DSPManager" name="SlimRoms/packages_apps_DSPManager" remote="github" revision="kk4.4" />
+  <!-- New Additions for deviant -->
+  <project path="vendor/deviant" name="vendor_deviant" remote="dx" revision="dx4.4" />
 
   <!--Power Hal -->
   <project path="hardware/cm" name="SlimRoms/hardware_cm" remote="github" revision="kk4.4" />
