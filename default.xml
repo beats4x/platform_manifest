@@ -43,6 +43,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/d801" name="device_lge_d801" remote="dx" revision="dx4.4" />
+  <project path="device/lge/d851" name="sdroyds/android_device_lge_d851" remote="github" revision="dx4.4" />
   <project path="device/lge/g2-common" name="SlimRoms/device_lge_g2-common" remote="github" revision="kk4.4" />
   <project path="device/qcom/common" name="SlimRoms/device_qcom_common" remote="github" revision="kk4.4" />
   <project path="device/sample" name="device/sample" groups="pdk" />
@@ -303,6 +304,7 @@
   <project path="hardware/ti/omap4xxx" name="SlimRoms/hardware_ti_omap4xxx" remote="github" revision="kk4.4" />
   <project path="hardware/ti/wlan" name="SlimRoms/hardware_ti_wlan" remote="github" revision="kk4.4" />
   <project path="hardware/ti/wpan" name="SlimRoms/hardware_ti_wpan" remote="github" revision="kk4.4" />
+  <project path="kernel/lge/msm8974ac" name="kernel_lge_msm8974ac" remote="dx" revision="dx4.4" />
   <project path="kernel/lge/msm8974" name="SlimRoms/kernel_lge_msm8974" remote="github" revision="kk4.4" />
   <project path="libcore" name="SlimRoms/platform_libcore" remote="github" revision="kk4.4" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
@@ -450,6 +452,7 @@
   <!-- New Additions for deviant -->
   <project path="vendor/deviant" name="vendor_deviant" remote="dx" revision="dx4.4" />
   <project path="vendor/lge/g2" name="CarbonDev/vendor_lge_g2" remote="github" revision="kitkat" />
+  <project path="vendor/lge/d851" name="proprietary_vendor_lge_d851" remote="dx" revision="dx4.4" />
 
   <!--Power Hal -->
   <project path="hardware/cm" name="SlimRoms/hardware_cm" remote="github" revision="kk4.4" />
