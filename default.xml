@@ -42,6 +42,7 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
+  <project path="device/lge/d800" name="device_lge_d800" remote="dx" revision="dx4.4" />
   <project path="device/lge/d801" name="device_lge_d801" remote="dx" revision="dx4.4" />
   <project path="device/lge/d802" name="device_lge_d802" remote="dx" revision="dx4.4" />
   <project path="device/lge/d851" name="sdroyds/android_device_lge_d851" remote="github" revision="dx4.4" />
