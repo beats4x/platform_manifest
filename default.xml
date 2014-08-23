@@ -45,7 +45,7 @@
   <project path="device/lge/d800" name="device_lge_d800" remote="dx" revision="dx4.4" />
   <project path="device/lge/d801" name="device_lge_d801" remote="dx" revision="dx4.4" />
   <project path="device/lge/d802" name="device_lge_d802" remote="dx" revision="dx4.4" />
-  <project path="device/lge/d851" name="sdroyds/android_device_lge_d851" remote="github" revision="dx4.4" />
+  <project path="device/lge/d851" name="device_lge_d851" remote="dx" revision="dx4.4" />
   <project path="device/lge/ls980" name="device_lge_ls980" remote="dx" revision="dx4.4" />
   <project path="device/lge/vs980" name="device_lge_vs980" remote="dx" revision="dx4.4" />
   <project path="device/lge/g2-common" name="SlimRoms/device_lge_g2-common" remote="github" revision="kk4.4" />
@@ -456,7 +456,7 @@
   <!-- New Additions for deviant -->
   <project path="vendor/deviant" name="vendor_deviant" remote="dx" revision="dx4.4" />
   <project path="vendor/lge/g2" name="CarbonDev/vendor_lge_g2" remote="github" revision="kitkat" />
-  <project path="vendor/lge/d851" name="proprietary_vendor_lge_d851" remote="dx" revision="dx4.4" />
+  <project path="vendor/lge/d851" name="vendor_lge_d851" remote="dx" revision="dx4.4" />
 
   <!--Power Hal -->
   <project path="hardware/cm" name="SlimRoms/hardware_cm" remote="github" revision="kk4.4" />
