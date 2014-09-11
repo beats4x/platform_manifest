@@ -463,8 +463,7 @@
   <project path="vendor/deviant" name="vendor_deviant" remote="dx" revision="dx4.4" />
   <project path="vendor/lge/g2" name="CarbonDev/vendor_lge_g2" remote="github" revision="kitkat" />
   <project path="vendor/lge/g3-common" name="vendor_lge_g3-common" remote="sd" revision="dx4.4" />
-  <project path="vendor/lge/d851" name="vendor_lge_d851" remote="dx" revision="dx4.4" />
-  
+
   <!-- New caf -->
   <project path="hardware/qcom/display-caf-new" name="SlimRoms/hardware_qcom_display-caf-new" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/media-caf-new" name="SlimRoms/hardware_qcom_media-caf-new" remote="github" revision="kk4.4" />
