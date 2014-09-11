@@ -9,7 +9,10 @@
            review="https://gerrit.slimroms.net/"/>
            
   <remote name="dx"
-           fetch="git://github.com/DeviantXone/" />        
+           fetch="git://github.com/DeviantXone/" />
+           
+  <remote name="sd"
+           fetch="git://github.com/sdroyds/" />          
 
   <default revision="refs/tags/android-4.4.4_r2"
            remote="aosp"
@@ -45,7 +48,8 @@
   <project path="device/lge/d800" name="device_lge_d800" remote="dx" revision="dx4.4" />
   <project path="device/lge/d801" name="device_lge_d801" remote="dx" revision="dx4.4" />
   <project path="device/lge/d802" name="device_lge_d802" remote="dx" revision="dx4.4" />
-  <project path="device/lge/d851" name="device_lge_d851" remote="dx" revision="dx4.4" />
+  <project path="device/lge/d851" name="device_lge_d851" remote="sd" revision="dx4.4" />
+  <project path="device/lge/g3-common" name="lge_g3-common" remote="sd" revision="dx4.4" />
   <project path="device/lge/ls980" name="device_lge_ls980" remote="dx" revision="dx4.4" />
   <project path="device/lge/vs980" name="device_lge_vs980" remote="dx" revision="dx4.4" />
   <project path="device/lge/g2-common" name="SlimRoms/device_lge_g2-common" remote="github" revision="kk4.4" />
@@ -310,7 +314,7 @@
   <project path="hardware/ti/omap4xxx" name="SlimRoms/hardware_ti_omap4xxx" remote="github" revision="kk4.4" />
   <project path="hardware/ti/wlan" name="SlimRoms/hardware_ti_wlan" remote="github" revision="kk4.4" />
   <project path="hardware/ti/wpan" name="SlimRoms/hardware_ti_wpan" remote="github" revision="kk4.4" />
-  <project path="kernel/lge/msm8974ac" name="kernel_lge_msm8974ac" remote="dx" revision="dx4.4" />
+  <project path="kernel/lge/g3" name="kernel_lge_g3-v10c" remote="sd" revision="dx4.4" />
   <project path="kernel/lge/msm8974" name="SlimRoms/kernel_lge_msm8974" remote="github" revision="kk4.4" />
   <project path="libcore" name="SlimRoms/platform_libcore" remote="github" revision="kk4.4" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
@@ -458,8 +462,13 @@
   <!-- New Additions for deviant -->
   <project path="vendor/deviant" name="vendor_deviant" remote="dx" revision="dx4.4" />
   <project path="vendor/lge/g2" name="CarbonDev/vendor_lge_g2" remote="github" revision="kitkat" />
+  <project path="vendor/lge/g3-common" name="vendor_lge_g3-common" remote="sd" revision="dx4.4" />
   <project path="vendor/lge/d851" name="vendor_lge_d851" remote="dx" revision="dx4.4" />
-
+  
+  <!-- New caf -->
+  <project path="hardware/qcom/display-caf-new" name="SlimRoms/hardware_qcom_display-caf-new" remote="github" revision="kk4.4" />
+  <project path="hardware/qcom/media-caf-new" name="SlimRoms/hardware_qcom_media-caf-new" remote="github" revision="kk4.4" />
+  
   <!--Power Hal -->
   <project path="hardware/cm" name="SlimRoms/hardware_cm" remote="github" revision="kk4.4" />
 
