@@ -54,6 +54,10 @@
   <project path="device/lge/vs980" name="device_lge_vs980" remote="dx" revision="dx4.4" />
   <project path="device/lge/g2-common" name="SlimRoms/device_lge_g2-common" remote="github" revision="kk4.4" />
   <project path="device/qcom/common" name="SlimRoms/device_qcom_common" remote="github" revision="kk4.4" />
+  <project name="cannondalev2000/deviant_device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="dx44" />
+  <project name="cannondalev2000/deviant_motorola_qcom-common" path="device/motorola/qcom-common" remote="github" revision="dx44" />
+<project name="cannondalev2000/deviant_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" revision="dx44" />
+<project name="cannondalev2000/kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="kk44" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="SlimRoms/android_external_aac" remote="github" revision="kk4.4" />
@@ -463,6 +467,7 @@
   <project path="vendor/deviant" name="vendor_deviant" remote="dx" revision="dx4.4" />
   <project path="vendor/lge/g2" name="CarbonDev/vendor_lge_g2" remote="github" revision="kitkat" />
   <project path="vendor/lge/g3-common" name="vendor_lge_g3-common" remote="sd" revision="dx4.4" />
+  <project name="themuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-11.0" />
 
   <!-- New caf -->
   <project path="hardware/qcom/display-caf-new" name="SlimRoms/hardware_qcom_display-caf-new" remote="github" revision="kk4.4" />
